@@ -1,0 +1,150 @@
+/* 全体共通デザイン */
+.App {
+  text-align: center;
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  margin: 145px 15px 15px 15px;
+  background-color: teal;  
+}
+
+/* ヘッダーデザイン */
+.App-header1 {
+  display: block;
+  background-color: teal;
+  text-align:left ;
+}
+.App-header2 {
+  display: flex;
+  font-size: 60%;  
+}
+
+.weather{
+  text-align:initial;
+  display: grid;
+  font-family: 'Hannotate TC',sans-serif;
+}
+.weatherIcon{
+  animation: r1 1200s linear infinite;
+}
+
+.whitemoji{
+  color: white;
+}
+
+.couponDisp{  
+  font-size: 12px;
+  animation: disp 3s ease 0s 1 normal forwards;
+}
+
+@keyframes r1 {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes disp {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+} 
+
+/* 全体テーブルデザイン */
+.chumon  {
+  background:#e0dffac2;
+  padding-left: 200px;
+  margin: 20px;
+}
+.chumon-head{
+  background-color: teal;
+  margin: 20px;
+}
+
+.chumon-total{
+  background-color: white;
+  margin: 20px;
+}
+
+.chumon-1{
+  background-color: #d7eefc;
+}
+.chumon-2{
+  background-color: #f9fdfd;
+}
+.chumon-3{
+  background-color: #25b4d9;
+}
+
+
+
+/* 全体 選択肢デザイン*/
+label {
+  padding: 10px;
+}
+input:checked + label {
+  color:#ff7b00;
+  background-color: #e0dffac2;
+  font-weight: 900;
+  /* content: '';
+  position: absolute; */
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  padding: 0.3em;
+  height: 1px;
+
+}
+
+/* Itemdetail画面デザイン */
+.shohinName{
+background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px)}
+
+.toppingNarabi{
+  width:13em;
+  float:left;
+  font-size: small;
+  background-color: #e0dffac2;
+}
+#M{
+  display: none;
+}
+#L{
+  display: none;
+}
+
+/* OrderConfirm画面デザイン */
+#error {
+  color:red;
+  list-style-type: none!important;
+}
+#cc{
+  display: none;
+
+}
+#daibiki{
+  display: none;
+}
+.point{
+  cursor: pointer;
+cursor: hand;
+}
+
+
+
+
+.container{
+  display:flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: auto;
+  height:auto;
+  padding: 5%;
+}
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+/* .App-link {
+  color: #61dafb;
+} */

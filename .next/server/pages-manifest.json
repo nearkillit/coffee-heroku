@@ -2,6 +2,9 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/component/OrderConfirm": "pages/component/OrderConfirm.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/component/ItemDetail/[id]": "pages/component/ItemDetail/[id].js",
+  "/component/Login": "pages/component/Login.js",
+  "/component/Cart": "pages/component/Cart.js",
   "/": "pages/index.js"
 }

@@ -29,10 +29,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/component/OrderConfirm": [
+    "/component/Cart": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/component/OrderConfirm.js"
+      "static/chunks/pages/component/Cart.js"
+    ],
+    "/component/ItemDetail/[id]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/component/ItemDetail/[id].js"
+    ],
+    "/component/Login": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/component/Login.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/next/dist/pages/_error.js"
     ]
   },
   "ampFirstPages": []

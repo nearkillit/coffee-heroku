@@ -29,8 +29,8 @@ export type ReduxStore = Store<StoreState>;
 //   });
 // };
 
-const enhancer = compose(persistState(['user'], { key: 'user' }))//,applyMiddleware(thunk));
+// const enhancer = compose(persistState(['user'], { key: 'user' }))//,applyMiddleware(thunk));
 
-const store = createStore(rootReducer,enhancer);
+const store = createStore(rootReducer)//,enhancer);
 
 export default store;
